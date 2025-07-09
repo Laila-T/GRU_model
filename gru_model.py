@@ -5,7 +5,7 @@ from tensorflow.keras.optimizers import Adam
 import pandas as pd
 import numpy as np
 
-features_df = pd.read_csv('C:\\Users\\Laila\\InceptionTime\\Results_Laila\\results\\inception\\TSCMotionSenseHAR\\extracted_features.csv') #Will change to actual path for our data later
+features_df = pd.read_csv('C:\\Users\\Laila\\InceptionTime\\Results_Laila\\results\\inception\\TSCMotionSenseHAR\\extracted_features.csv') #Will change to actual path for DSRI features later
 num_samples = features_df.shape[0]
 feature_dims = 12 #dimensions
 total_features = features_df.shape[1]
